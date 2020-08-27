@@ -7,8 +7,8 @@ int main() {
     int sum = a + b + c;
     if (a < 0 || b < 0 || c < 0 || sum > 100) {
         printf("Error");
-        return 0;
     }
+    else {
     if (sum <= 49 && sum >= 0) {
         printf("Your Grade is F");
     }
@@ -32,5 +32,6 @@ int main() {
     }
     else  if (sum <= 100 && sum >= 80) {
         printf("Your Grade is A");
+    }
     }
 }
